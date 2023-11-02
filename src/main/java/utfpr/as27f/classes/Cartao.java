@@ -18,6 +18,12 @@ public abstract class Cartao {
         }
     }
 
+//    obs: o Java já possui uma implementação padrão para o método clone com a interface Cloneable.
+//    @Override
+//    protected Object clone() throws CloneNotSupportedException {
+//        return super.clone();
+//    }
+
     public abstract Cartao clone();
 
     @Override
