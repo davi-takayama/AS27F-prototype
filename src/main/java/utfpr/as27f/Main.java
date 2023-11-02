@@ -32,7 +32,9 @@ public class Main {
 
         cartoes.forEach(cartao -> cartoesClonados.add(cartao.clone()));
 
+        System.out.println("Cartões originais:");
         cartoesClonados.forEach(System.out::println);
+        System.out.println("\nCartões cromados:");
         cartoes.forEach(System.out::println);
 
         compararCartoesCromados(cartoes, cartoesClonados);
